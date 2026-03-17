@@ -1,4 +1,4 @@
-def sortie_permise(temperature, pluie)
+def sortie_permise(temperature, pluie):
     return temperature >= 15 and pluie == "non"
 
 temperature = float(input("Entrez la température : "))
