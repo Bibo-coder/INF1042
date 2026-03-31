@@ -6,7 +6,7 @@ gagnes = 0
 pertes = 0
 
 # Liste des choix possibles
-choix_possibles = ["pierre", "papier", "ciseaux"]
+choix_possibles = ["pierre", "papier", "ciseau"]
 
 continuer = True
 
@@ -27,9 +27,9 @@ while continuer:
     # Déterminer le résultat
     if joueur == ordinateur:
         print("Égalité !")
-    elif (joueur == "pierre" and ordinateur == "ciseaux") or \
+    elif (joueur == "pierre" and ordinateur == "ciseau") or \
          (joueur == "papier" and ordinateur == "pierre") or \
-         (joueur == "ciseaux" and ordinateur == "papier"):
+         (joueur == "ciseau" and ordinateur == "papier"):
         print("Vous avez gagnée !")
         gagnes += 1
     else:
